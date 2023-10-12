@@ -9,12 +9,10 @@ anillo_fondo = Grupo(Círculo(200, 200, 110, relleno=None, borde='blancoFantasma
                 Rótulo('W', 75, 200, relleno='blancoFantasma', tamaño=30),
                 Rótulo('E', 325, 200, relleno='blancoFantasma', tamaño=30),
                 norte_rotulo,
-                Círculo(200, 200, 145, relleno=None, borde='blancoFantasma', anchuraDeBorde=3, guión=(80, 1)))
-
-# fondo brujula
-Estrella(200, 200, 100, 12, relleno='blancoFantasma', redondez=20)
-Estrella(200, 200, 100, 12, relleno=app.fondo, redondez=10)
-Estrella(200, 200, 100, 12, relleno='blancoFantasma', redondez=5)
+                Círculo(200, 200, 145, relleno=None, borde='blancoFantasma', anchuraDeBorde=3, guión=(80, 1)),
+                Estrella(200, 200, 100, 12, relleno='blancoFantasma', redondez=20),
+                Estrella(200, 200, 100, 12, relleno=app.fondo, redondez=10),
+                Estrella(200, 200, 100, 12, relleno='blancoFantasma', redondez=5))
 
 aguja = Linea(200,200,200,120, relleno='carmesi', anchuraDeLinea=8, finalDeFlecha=True)
 
